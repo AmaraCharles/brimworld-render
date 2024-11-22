@@ -13,6 +13,10 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     
   },
+  country: {
+    type: String,
+    
+  },
   zip: {
     type: String,
     
