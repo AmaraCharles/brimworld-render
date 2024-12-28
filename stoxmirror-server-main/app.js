@@ -12,6 +12,7 @@ var loginAuthRouter = require("./routes/auth/login");
 var verifyAuthRouter = require("./routes/auth/verify-email");
 var transactionsRouter = require("./routes/transactions");
 var registerAuthRouter = require("./routes/auth/register");
+var kycAuthRouter = require("./routes/auth/kyc");
 var fogortPasswordAuthRouter = require("./routes/auth/forgot-password");
 var usersRouter = require("./routes/users");
 
@@ -29,6 +30,8 @@ app.use("/users", usersRouter);
 app.use("/auth", loginAuthRouter);
 app.use("/auth", verifyAuthRouter);
 app.use("/auth", registerAuthRouter);
+app.use("/auth", kycAuthRouter);
+
 app.use("/auth", fogortPasswordAuthRouter);
 app.use("/transactions", transactionsRouter);
 
