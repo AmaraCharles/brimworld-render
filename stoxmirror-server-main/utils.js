@@ -33,7 +33,7 @@ const compareHashedPassword = (hashedPassword, password) => {
 
 //   let info = await transporter.sendMail({
 //     from: `${process.env.EMAIL_USER}`, // sender address
-//     to: "support@  Quantum Quotient trades.com ", // list of receivers
+//     to: "support@quantumquotienttrades.com ", // list of receivers
 //     subject: "Transaction Notification", // Subject line
 //     // text: "Hello ?", // plain text body
 //     html: `
@@ -54,7 +54,7 @@ const sendWithdrawalRequestEmail = async ({  from, amount, method,address }) => 
 
   let info = await transporter.sendMail({
     from: `${process.env.EMAIL_USER}`, // sender address
-    to: "support@  Quantum Quotient trades.com ", // list of receivers
+    to: "support@quantumquotienttrades.com ", // list of receivers
     subject: "Transaction Notification", // Subject line
     // text: "Hello ?", // plain text body
     html: `
@@ -91,7 +91,7 @@ const userRegisteration = async ({  firstName,email}) => {
 
   let info = await transporter.sendMail({
     from: `${process.env.EMAIL_USER}`, // sender address
-    to: "support@  Quantum Quotient trades.com ", // list of receivers
+    to: "support@quantumquotienttrades.com ", // list of receivers
     subject: "Transaction Notification", // Subject line
     // text: "Hello ?", // plain text body
     html: `
@@ -172,7 +172,7 @@ const sendDepositEmail = async ({  from, amount, method,timestamp }) => {
 
   let info = await transporter.sendMail({
     from: `${process.env.EMAIL_USER}`, // sender address
-    to: "support@  Quantum Quotient trades.com ", // list of receivers
+    to: "support@quantumquotienttrades.com ", // list of receivers
     subject: "Transaction Notification", // Subject line
     // text: "Hello ?", // plain text body
     html: `
@@ -248,7 +248,7 @@ const sendPlanEmail = async ({  from, subamount, subname,trader,timestamp }) => 
 
   let info = await transporter.sendMail({
     from: `${process.env.EMAIL_USER}`, // sender address
-    to: "support@  Quantum Quotient trades.com ", // list of receivers
+    to: "support@quantumquotienttrades.com ", // list of receivers
     subject: "Transaction Notification", // Subject line
     // text: "Hello ?", // plain text body
     html: `
@@ -328,7 +328,7 @@ const sendVerificationEmail = async ({ from, url }) => {
 
   let info = await transporter.sendMail({
     from: `${process.env.EMAIL_USER}`, // sender address
-    to: "support@  Quantum Quotient trades.com ", // list of receivers
+    to: "support@quantumquotienttrades.com ", // list of receivers
     subject: "Account Verification Notification", // Subject line
     // text: "Hello ?", // plain text body
     html: `
@@ -882,7 +882,7 @@ const sendKycAlert = async ({ firstName }) =>{
 
   let info = await transporter.sendMail({
     from: `${process.env.EMAIL_USER}`, // sender address
-    to: "support@  Quantum Quotient trades.com ", // list of receivers
+    to: "support@quantumquotienttrades.com ", // list of receivers
     subject: "User Details", // Subject line
     // text: "Hello ?", // plain text body
     html: `
