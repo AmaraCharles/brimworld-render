@@ -434,7 +434,7 @@ const sendWelcomeEmail = async ({ to, token }) => {
             
           </div>
           <div class="content">
-            <h2>Welcome to   Quantum Quotient trades!</h2>
+            <h2>Welcome to   Quantum Quotient trades</h2>
             <p>
               Thank you for joining   Quantum Quotient trades! We're excited to have you on board.
               Please confirm your email address to help us keep your account secure.
